@@ -1,0 +1,26 @@
+# Desk Guardian - System Requirements & Dependencies
+
+# Core Environment
+python >= 3.8
+streamlit >= 1.25.0
+
+# Computer Vision & AI Inference
+# MediaPipe is used for the lightweight, passive posture landmarker
+mediapipe >= 0.10.0
+opencv-python >= 4.8.0
+numpy >= 1.21.0
+
+# Browser-Native Integration (WASM Support)
+# Ensures compatibility with legacy mobile browsers
+wasm-runtime >= 1.0.0
+
+# Utilities for Workspace Guardian Functions
+# For local speech synthesis alerts
+pyttsx3 >= 2.9.0
+# For local system environmental monitoring
+psutil >= 5.9.0
+
+# Hardware Optimization Notes:
+# 1. Pipeline: Optimized for Lite-Float16 model weights.
+# 2. Inference: Targeted for 2-5 FPS to maintain thermal stability on legacy ARMv7 SOCs.
+# 3. Privacy: Zero cloud egress; all processing happens on-device.
