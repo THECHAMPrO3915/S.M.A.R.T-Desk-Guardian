@@ -115,8 +115,6 @@ left_col, center_col, right_col = st.columns([1, 2, 1])
 
 # Left Column: Metrics & Focus Tools
 with left_col:
-  st.subheader("Workspace Metrics")
-  render_kwh_gauge(4.2, 5.0)
 
   st.subheader("🎵 Focus Timer & Ambient Music")
 
