@@ -1,4 +1,4 @@
-streamlit>=1.57.0
+streamlit
 streamlit-calendar
 mediapipe>=0.10.0
 opencv-python>=4.8.0
