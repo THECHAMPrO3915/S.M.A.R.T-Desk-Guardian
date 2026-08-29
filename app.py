@@ -228,7 +228,7 @@ with right_col:
   st.subheader("🔑 S.M.A.R.T AI Access")
   st.info(
       "**Username / Email:** `smart_admin`  \n"
-      "**Password:** `admin123`"  \n"
+      "**Password:** `admin123`  \n"
       "**Website:** `smart-desk-ai.streamlit.app`"
   )
 
