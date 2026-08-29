@@ -90,18 +90,7 @@ def render_kwh_gauge(value, max_val):
   percent = min((current_value / max_val) * 100, 100)
   color = "#FF4B4B" if percent > 80 else "#3FB950"
 
-  if percent > 80:
-    st.error("⚠️ High Electricity Usage Detected!")
-
-  st.markdown(f"**Electricity Usage ({int(percent)}%)**")
-  st.markdown(
-      f"""
-        <div class="liquid-bar-bg">
-            <div class="liquid-bar-fill" style="width: {percent}%; background: {color};">{int(percent)}%</div>
-        </div>
-    """,
-      unsafe_allow_html=True,
-  )
+  
 
 
 # --- LOGO & HEADER SETUP ---
