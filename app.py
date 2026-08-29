@@ -229,6 +229,7 @@ with right_col:
   st.info(
       "**Username / Email:** `smart_admin`  \n"
       "**Password:** `admin123`"
+      "**Website:** `smart-desk-ai.streamlit.app`"
   )
 
   st.subheader("Environment")
